@@ -1,0 +1,42 @@
+/*
+  Theme Name: FirstTemplateTutorial
+  Theme URI: https://www.adhousegroup.at
+  Description: First Template for ADhouse Communication Group.
+  Author: Bernhard Froeschl
+  Author URI: https://www.adhousegroup.at
+*/
+
+body {
+  color: #333;
+  background: #e5e5e5;
+}
+
+#wrapper {
+  width: 850px;
+  margin: auto;
+  text-align: left;
+  background: #fff:
+}
+
+#header {
+  height: 160px;
+  padding: 20px;
+}
+
+#main {
+  width: 520px;
+  padding 20px;
+  float: left;
+}
+
+#sidebar {
+  width: 270px;
+  padding: 20px 10px 10px 10px;
+  float: left;
+}
+
+#footer {
+  clear: both;
+  height: 100px;
+  padding: 20px;
+}
