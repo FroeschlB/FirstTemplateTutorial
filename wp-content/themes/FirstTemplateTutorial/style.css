@@ -7,7 +7,7 @@
 */
 
 body {
-  color: #333;
+  color: #333333;
   background: #e5e5e5;
 }
 
@@ -15,17 +15,18 @@ body {
   width: 850px;
   margin: auto;
   text-align: left;
-  background: #fff:
+  background: #ffffff;
 }
 
 #header {
   height: 160px;
   padding: 20px;
+  border-bottom: 1px solid #cccccc;
 }
 
 #main {
   width: 520px;
-  padding 20px;
+  padding: 20px;
   float: left;
 }
 
