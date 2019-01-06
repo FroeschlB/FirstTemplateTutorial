@@ -1,4 +1,10 @@
-
+<h2>Suche</h2>
+<p>
+  <form method="get" id="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <input type="text" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
+    <input type="submit" id="search_submit" value="Suchen" />
+  </form>
+</p>
 
 <h2>Über dieses FirstTemplateTutorial</h2>
 
@@ -14,6 +20,11 @@
 <h2>Archiv</h2>
 <ul>
   <?php wp_get_archives('type=monthly'); ?>
+</ul>
+
+<h2>Seiten</h2>
+<ul>
+   <?php wp_list_pages(); ?>
 </ul>
 
 <h2>Blogroll</h2>
